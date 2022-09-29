@@ -29,7 +29,6 @@ public class OrderTask{
 				
 				while (true) 
 				{
-					//ciclo infinito
 					try 
 					{	 
 						Thread.sleep(30000);
@@ -111,7 +110,7 @@ public class OrderTask{
 				}
 			}
 		};
-		// Creamos un hilo y le pasamos el runnable
+		
 		Thread hilo = new Thread(runnable);
 		hilo.start();
 			
